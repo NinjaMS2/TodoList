@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --Color-A : rgb(82, 230, 82);
+    --Color-B : rgb(223, 32, 74);
+    --Color-C : rgb(247, 247, 247);
+    --Color-D : rgb(40, 124, 235);
+    --Font-A : Bold;
+    
+}
+.grid-data {
+
+    display: grid;
+    grid-template-columns: 70px 160px 60px 60px 110px 50px;
+    row-gap: 10px;
+    column-gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 10px 0;
+
+}
+#btn{
+    margin: 0 15px;
+    color: var(--Color-C);
+    width: 50px;
+    background-color: var(--Color-A);
+    outline: none;
+    border: none;
+  
+    font-weight: var(--Font-A);
+}
+.btndelete {
+
+    background-color: var(--Color-B);
+    outline: none;
+    border: none;
+    height: 22px;
+    color: var(--Color-C);
+    font-weight: var(--Font-A);
+}
+label {
+
+    font-weight: var(--Font-A);
+    color: var(--Color-D);
+}
+input {
+
+    height: 30px;
+    border: 1px solid var(--Color-D);
+    outline-color: var(--Color-D);
+}
+#qty , #price{
+
+    width: 70px;
+}
+
+.sum {
+
+    display: grid;
+
+    grid-template-columns: 280px 70px 80px;
+}
+.label1 , .label2 {
+
+    text-align: center;
+  
+}
+span {
+
+    color: var(--Color-D);
+}
